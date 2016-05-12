@@ -1,0 +1,280 @@
+ul.flags { display: none; }
+#toolbar { padding-top: 66px; }
+#toolbar form { margin-right: 10px; }
+.sm_page_image { float: left; margin: 0px 10px 10px 0; }
+h4.question { cursor: pointer; margin-top: 24px; }
+h4.question:focus, h4.question:hover, h4.question:active { color: #8A0000 ! important; }
+.answer { background: #eee; padding: 6px 10px 2px; }
+textarea { overflow: auto; border: 1px solid #777; }
+/**************************************/
+/*      CONTACT/SUPPORT STYLES        */
+/**************************************/
+
+.contactLabel, #contactSubmit { clear: both; display: block; margin-top: 15px; }
+input.contactInput, .contactTextarea, #contactSubmit { background: #ededed; border: 1px solid #b1b1b1; font-size: 14px; padding: 6px; }
+input.contactInput, .contactTextarea { width: 340px; color: #333; margin: 0px; }
+.contactTextarea { height: 100px; overflow: auto; }
+#contactSubmit { cursor: pointer; }
+#contactSubmit:hover { background: #ccc; border: 1px solid #999; }
+
+.error_form { margin-left: 10px; padding-left: 16px; background: white url(../img/alert.jpg) top left no-repeat; font-size: 12px; font-style: italic; color: #a00; position: relative; top: -2px; }
+.messageSent { font-size:12px; font-style:italic; color:#777; float: right; display: block; position: relative; top: -27px; left: -100px; }
+#loading { float: right; position:  relative; left: -220px; margin-top: -30px; }
+
+.errorlist { display: inline; position: relative; top: 2.6em; left: 170px; }
+.errorlist li { display: inline; list-style: none; margin: 0px; padding-left: 16px; background: transparent url(../img/alert.jpg) center left no-repeat; font-size: 12px; font-style: italic; font-weight: bold; color: #a00; }
+input.warning { border-color: #a00; }
+
+.trademark { font-size: 50%; vertical-align: top; }
+
+#content { width: 480px; }
+#footer { clear: both; }
+/* Red sidebar boxes */
+div.sidebar-statement
+{
+    margin-top: 55px;
+}
+
+#content.story div.sidebar-statement
+{
+    margin-top: 86px;
+}
+
+#content.event div.sidebar-statement
+{
+    margin-top: 25px;
+}
+
+#content.donate div.sidebar-statement
+{
+    margin-top: 25px;
+}
+
+div.sidebar-statement div.geo-trust
+{
+    margin-bottom: 20px;
+}
+
+div.colored-box {
+	background-repeat: no-repeat;
+	/*width: 216px;*/
+	color: #fff;
+	/*margin-bottom: 1em;*/
+	padding: 16px 16px 1em 16px;
+}
+
+div.colored-box div.section {
+    
+    padding: 0;
+    margin: 0;
+}
+
+div.colored-box a {
+	color: #fff;
+	text-decoration: none;
+}
+
+div.colored-box a:hover {
+	color: #ffcc00;
+}
+
+div.colored-box h4 {
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #fff;
+	padding: 0 0 0.5em 0;
+	margin: 0 0 0.5em 0;
+	background: url(../img/box/red-divider.gif) repeat-x bottom left;
+}
+
+div.colored-box p {
+    line-height: 1.5em;
+	padding: 0 0 1em 0;
+	color: #fff;
+	background: url(../img/box/red-divider.gif) repeat-x bottom left;
+	margin: 1em 0;
+}
+
+div.box-red {
+	background-color: #8b0202;
+}
+
+/* Quick links */
+
+div.quick-links {
+	clear: both;
+	background: url(../img/divider.gif) repeat-x;
+	margin: 20px 0 30px 0;
+	width: 185px ! important; 
+	float: right;
+}
+
+div.quick-links h3 {
+	background: none;
+	font-size: 1.8em;
+	padding: 15px 0;
+	margin: 0;
+}
+
+div.quick-links ul {
+	overflow: hidden;
+}
+
+div.quick-links ul li {
+	float: left;
+	/*padding-right: 18px;*/
+	margin-right: 7px;
+}
+
+div.quick-links ul li.last {
+	margin: 0;
+	padding: 0;
+	/*background: none;*/
+}
+
+div.quick-links ul li a {
+	display: block;
+	padding: 124px 5px 0 5px;
+	text-align: center;
+	background-repeat: no-repeat;
+	color: #000;
+	text-decoration: none;
+	width: 156px;
+}
+
+div.quick-links ul li a.donate {
+    background: url(../img/quick-links/donate-bg.jpg) no-repeat;
+}
+
+div.quick-links ul li a.involved {
+    background: url(../img/quick-links/involved-bg.jpg) no-repeat;
+}
+
+div.quick-links ul li a.volunteer {
+    background: url(../img/quick-links/volunteer-bg.jpg) no-repeat;
+}
+
+div.quick-links ul li a.newsletter {
+    background: url(../img/quick-links/newsletter-bg.jpg) no-repeat;
+}
+
+div.quick-links ul li a.current,
+div.quick-links ul li a:hover {
+	background-position: -166px 0px;
+	color: #8a0000;
+	font-weight: bold;
+}
+
+/* End Quick Links */
+
+/**************************************/
+/*           DONATION FORM            */
+/**************************************/
+
+#donation_form {
+    font-size: 1.2em;
+}
+
+#donation_form fieldset {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px dotted #ccc;
+}
+
+#donation_form legend {
+    padding: 0 0.5em;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#donation_form input[type=radio] {
+    margin-right: 0.7em;
+    position: relative;
+    top: -3px;
+}
+
+#donation_form label {
+    display: block;
+    clear: both;
+    font-size: 1.2em;
+}
+
+.label_radio {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.label_radio_sm {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+.label_radio > span {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.donation_divider {
+    margin: 1em 0;
+    border: 0;
+}
+
+.input_wide {
+    display: block;
+    width: 95%;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #777;
+}
+
+#id_donation_other {
+    padding: 0.5em;
+    font-size: 0.75em;
+    border: 1px solid #777;
+}
+
+#btn_submit {
+    margin: 0 0 2em;
+    padding: 0.5em 1em;
+    background-color: #98050C;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#donation_form label.checkbox_label {
+    font-size: 0.8em;
+    
+}
+#donation_form label.checkbox_label input {
+    float: left;
+    display: inline;
+    position: relative;
+    top: 0.75em;
+}
+#donation_form label.checkbox_label span {
+    float: left;
+    padding-left: 2em;
+    display: inline;
+    position: relative;
+    top: -1.5em;
+}
+#donation_form textarea {
+    width: 95%;
+    height: 6em;
+    padding: 0.5em;
+    overflow: auto;
+    border: 1px solid #777;
+}
+#donation_dedication_message_wrap {
+    display: none;
+}
+#donation_form fieldset.form-error, #donation_form input.form-error {
+    border-color: #a00;
+    background: #FFE3E3;
+}

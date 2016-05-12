@@ -1,0 +1,113 @@
+#header {
+	background: transparent url(../img/es/header/bg.jpg);
+}
+
+#header ul.nav li.donate a {
+	background: url(../img/es/header/button-donate.gif) no-repeat;
+}
+
+#header ul.nav li.befriend a {
+	background: url(../img/es/header/button-befriend.gif) no-repeat;
+}
+
+#header ul.nav li a:hover {
+	background-position: 0px -29px;
+}
+
+#toolbar form input.button {
+	background: url(../img/es/header/go-btn.gif) no-repeat;
+}
+
+#toolbar form input.button:hover {
+	background-position: bottom left;
+}
+
+#nav-main {
+	background: url(../img/es/nav.png) no-repeat;
+}
+
+/* 
+All 3 states (normal, hover, and selected) for the 
+main nav bar are contained in nav.png. The images 
+of the nav buttons are loaded as backgrounds.
+ */
+#nav-main li a {
+	background: url(../img/es/nav.png) no-repeat;
+}
+
+#nav-main li a.home {
+	width: 153px;
+}
+
+#nav-main li a.home:hover {
+	background-position: left -49px;
+}
+
+#nav-main li.section a.home,
+#nav-main li.current a.home {
+	background-position: left -98px;
+}
+
+#nav-main li a.who-we-are {
+	width: 191px;
+	background-position: -153px 0px;
+}
+
+#nav-main li a.who-we-are:hover {
+	background-position: -153px -49px;
+}
+
+#nav-main li.section a.who-we-are,
+#nav-main li.current a.who-we-are {
+	background-position: -153px -98px;
+}
+
+#nav-main li a.what-we-do {
+	width: 169px;
+	background-position: -344px 0px;
+}
+
+#nav-main li a.what-we-do:hover {
+	background-position: -344px -49px;
+}
+
+#nav-main li.section a.what-we-do,
+#nav-main li.current a.what-we-do {
+	background-position: -344px -98px;
+}
+
+#nav-main li a.how-you-can-help {
+	width: 211px;
+	background-position: -513px 0px;
+}
+
+#nav-main li a.how-you-can-help:hover {
+	background-position: -513px -49px;
+}
+
+#nav-main li.section a.how-you-can-help,
+#nav-main li.current a.how-you-can-help {
+	background-position: -513px -98px;
+}
+
+#nav-main li a.news-and-events {
+	width: 206px;
+	background-position: -724px 0px;
+}
+
+#nav-main li a.news-and-events:hover {
+	background-position: -724px -49px;
+}
+
+#nav-main li.section a.news-and-events,
+#nav-main li.current a.news-and-events {
+	background-position: -724px -98px;
+}
+
+#footer div.left {
+	width: 40%;
+}
+
+#footer div.right {
+	width: 60%;
+}

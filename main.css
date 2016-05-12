@@ -1,0 +1,921 @@
+/*
+Default CSS for elements
+*/
+body {
+	font-family:Georgia,Arial,sans-serif;
+	color: #000;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #fffbf6;
+	font-size: 12px;
+}
+
+a img { border:none; }
+
+a {
+	color: #8a0000;
+}
+
+a:hover {
+	color: #b50202;
+}
+
+form {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h1 {
+	font-size: 1.35em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+p { font-size: 14px; }
+
+hr {
+	border: none 0;
+	border-top: 1px dashed #C5C5C5;
+	height: 1px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+blockquote {
+	margin-left: 20px;
+	border-left: 20px solid #eee;
+	padding-left: 10px;
+	font-size: 0.9em;
+	clear: left;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1.0em;
+	font-size: 0.9em;
+}
+
+code {
+	font-family: Courier New, Courier, Monospace;
+	font-size: 1em;
+	color: #666666;
+}
+
+acronym, abbr {
+	cursor: help;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* End Default CSS */
+
+
+
+#wrapper {
+	min-height: 1120px;
+	background: url(../img/bg.jpg) repeat-x;
+}
+
+#main {
+	position: relative;
+	width: 930px;
+	margin: 0 auto;
+	background: white;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#main div.body {
+	background: url(img/bg-page.gif) repeat-y;
+}
+
+#main div.banner {
+	border-bottom: 5px solid #febc26;
+	height: 132px;
+	background-repeat: no-repeat;
+	background-color: #082457;
+}
+
+
+
+/* Header */
+
+#header {
+	position: relative;
+	width: 930px;
+	height: 153px;
+	margin: 0 auto;
+	background: transparent url(../img/header/bg.jpg);
+}
+
+#header h1 {
+	margin: 0;
+	padding-left: 22px;
+	float: left;
+}
+
+#header h1 a {
+	display: block;
+	width: 305px;
+	height: 153px;
+	text-indent: -5000px;
+	overflow: hidden;
+}
+
+#header ul.nav {
+    position: absolute;
+    top: 103px;
+    left: 663px;
+	width: 265px;
+	overflow: hidden;
+	
+}
+
+#header ul.nav li {
+	float: right;
+}
+
+#header ul.nav li.donate {
+	width: 125px;
+	margin-right: 15px;
+}
+
+#header ul.nav li.befriend {
+	width: 125px;
+}
+
+#header ul.nav li a {
+	display: block;
+	height: 29px;
+	overflow: hidden;
+	text-indent: -5000px;
+}
+
+#header ul.nav li.donate a {
+	background: url(../img/header/button-donate.gif) no-repeat;
+}
+
+#header ul.nav li.befriend a {
+	background: url(../img/header/button-befriend2.gif) no-repeat;
+}
+
+#header ul.nav li a:hover {
+	background-position: 0px -29px;
+}
+
+/* End Header */
+
+/* Toolbar */
+
+#toolbar {
+	position: relative;
+	padding: 20px 0px 20px 9px;
+	overflow: hidden;
+	float: right;
+	width: 400px; /*fix for FF2.0*/
+}
+
+#toolbar ul.flags {
+    padding: 4px 4px 0 0;
+	float: right;
+}
+
+#toolbar ul.flags li {
+	float: left;
+}
+
+#toolbar ul.flags li a {
+	display: block;
+	height: 15px;
+	width: 23px;
+	text-indent: -5000px;
+	overflow: hidden;
+	padding-right: 5px;
+}
+
+#toolbar ul.flags li.german a {
+    background: url(../img/header/flags/germany.jpg) no-repeat;
+}
+
+#toolbar ul.flags li.english a {
+    background: url(../img/header/flags/us.jpg) no-repeat;
+}
+
+#toolbar ul.flags li.french a {
+    background: url(../img/header/flags/france.jpg) no-repeat;
+}
+
+
+#toolbar form {
+	position: relative;
+	width: 232px;
+	height: 29px;
+	float: right;
+	overflow: visible;
+	background: url(../img/header/search.gif) no-repeat;
+}
+
+#toolbar form input.text {
+	position: absolute;
+	top: 3px;
+	left: 12px;
+	width: 150px;
+	height: 16px;
+	border: 0;
+	padding: 0 0 0 0;
+	font-size: 12px;
+}
+
+#toolbar form input.button {
+	position: absolute;
+	top: -4px;
+	right: 0px;
+	width: 39px;
+	height: 29px;
+	padding: 0;
+	float: left;
+	background: url(../img/header/go-btn.gif) no-repeat;
+}
+
+#toolbar form input.button:hover {
+	background-position: bottom left;
+}
+
+/* End Toolbar */
+
+
+/* Main Navigation Bar */
+
+#nav-main {
+	height: 49px;
+	width: 930px;
+	background: url(../img/nav.png) no-repeat;
+}
+
+#nav-main li {
+	float: left;
+	position: relative;
+}
+
+#nav-main li.last {
+	margin: 0;
+}
+
+/* 
+All 3 states (normal, hover, and selected) for the 
+main nav bar are contained in nav.png. The images 
+of the nav buttons are loaded as backgrounds.
+ */
+#nav-main li a {
+	display: block;
+	height: 49px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(../img/nav.png) no-repeat;
+}
+
+#nav-main li a.home {
+	width: 153px;
+}
+
+#nav-main li a.home:hover {
+	background-position: left -49px;
+}
+
+#nav-main li.section a.home,
+#nav-main li.current a.home {
+	background-position: left -98px;
+}
+
+#nav-main li a.who-we-are {
+	width: 191px;
+	background-position: -153px 0px;
+}
+
+#nav-main li a.who-we-are:hover {
+	background-position: -153px -49px;
+}
+
+#nav-main li.section a.who-we-are,
+#nav-main li.current a.who-we-are {
+	background-position: -153px -98px;
+}
+
+#nav-main li a.what-we-do {
+	width: 169px;
+	background-position: -344px 0px;
+}
+
+#nav-main li a.what-we-do:hover {
+	background-position: -344px -49px;
+}
+
+#nav-main li.section a.what-we-do,
+#nav-main li.current a.what-we-do {
+	background-position: -344px -98px;
+}
+
+#nav-main li a.how-you-can-help {
+	width: 211px;
+	background-position: -513px 0px;
+}
+
+#nav-main li a.how-you-can-help:hover {
+	background-position: -513px -49px;
+}
+
+#nav-main li.section a.how-you-can-help,
+#nav-main li.current a.how-you-can-help {
+	background-position: -513px -98px;
+}
+
+#nav-main li a.news-and-events {
+	width: 206px;
+	background-position: -724px 0px;
+}
+
+#nav-main li a.news-and-events:hover {
+	background-position: -724px -49px;
+}
+
+#nav-main li.section a.news-and-events,
+#nav-main li.current a.news-and-events {
+	background-position: -724px -98px;
+}
+
+/* End Main Navigation Bar */
+
+
+/* Body */
+
+#body {
+	background: #fff;
+}
+
+#content-wrapper {
+	padding: 25px 0 10px 0;
+	background: white;
+	height: 1%; /* IE fix */
+}
+
+#breadcrumbs {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+#breadcrumbs a {
+	white-space: nowrap;
+	/*font-size: 0.9em;*/
+	text-decoration: none;
+	/*color: #000;*/
+}
+
+/* End Body */
+
+/* Sidebar nav */
+
+#sidebar {
+	float: left;
+	width: 199px;
+	padding: 35px 18px 0 15px;
+}
+
+#sidebar h2 {
+	margin: 0;
+	font-weight: normal;
+	background: url(../img/divider.gif) repeat-x bottom left;
+	padding-bottom: 0.5em;
+}
+
+#sidebar h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+#sidebar ul.nav {
+	margin: 15px 0 0 0;
+	/*width: 192px;*/
+}
+
+#sidebar ul.nav li a {
+	color: #000;
+	text-decoration: none;
+}
+
+#sidebar ul.nav li a.current,
+#sidebar ul.nav li a.section,
+#sidebar ul.nav li.selected a,
+#sidebar ul.nav li a:hover {
+	color: #8a0000;
+}
+
+#sidebar ul.nav li.level-1 {
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#sidebar ul.nav li.level-1 ul {
+	margin: 0.5em 0;
+}
+
+#sidebar ul.nav li.level-1 ul li.level-2
+{
+	padding-left: 10px;
+	background: url(../img/sidebar/list-arrow.gif) no-repeat 0px 2px;
+}
+
+#sidebar ul.nav li.level-1 {
+	background: url(../img/divider.gif) repeat-x bottom left;
+}
+
+/* End sidebar */
+
+/* Content area */
+
+#content {
+	float: left;
+	width: 688px;
+	padding-right: 6px;
+}
+
+#content h3 {
+	margin: 0.7em 0 0.3em 0;
+	font-size: 1.4em;
+	color: #000;
+	font-family: Georgia;
+	font-weight: normal;
+	padding-bottom: 0.2em;
+	background: url(../img/divider.gif) repeat-x bottom left;
+}
+
+#content.story h3,
+#content.donate h3 {
+    background: none;
+    padding-bottom: 0.1em;
+    margin-bottom: 0;
+}
+
+#content.event h3 {
+    font-size: 2em;
+    background: none;
+    padding-bottom: 0.1em;
+    margin: 0.4em 0 0 0;
+}
+
+#content p.story-date {
+    margin: 0 0 0.5em 0;
+    font-size: 1.5em;
+}
+
+#content div.top {
+	height: 1%; /* IE Fix */
+	padding-bottom: 3px;
+}
+
+#content div.top-has-border {
+	background: url(../img/divider.gif) repeat-x bottom left;
+}
+
+#content div.top div.bg {
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 0.5em;
+}
+
+#content div.main-content {
+    width: 485px;
+    float: left;
+
+}
+
+#content div.sidebar-statement {
+    width: 186px;
+    padding-left: 13px;
+    float: left;
+    overflow: hidden;
+}
+
+#content div.headline-img {
+    margin-bottom: 14px;
+}
+
+#content.event div.headline-img {
+    margin-top: 25px;
+}
+
+#content div.intro {
+	font-size: 1.8em;
+	/*padding: 0 16px 0 0;*/
+	margin-bottom: 0.5em;
+}
+
+#content div.intro p {
+	margin: 0;
+}
+
+#content div.quote {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+#content div.quote p {
+    text-align: center;
+    margin: 0;
+}
+
+#content div.quote p.quoted {
+    text-align: right;
+    margin-right: 40px;
+}
+
+#content div.copy {
+	padding: 0 16px 0 0;
+	margin-bottom: 1em;
+}
+
+#content div.copy p {
+	line-height: 1.5em;
+	margin: 0 0 1em 0;
+}
+
+#content div.copy h4 {
+	font-size: 1.0em;
+	color: #000;
+	margin: 1em 0 0.2em 0;
+}
+
+#content div.copy h4:first-child {
+	margin-top: 0;
+}
+
+/* End Content area */
+
+/* Gray emphasized box */
+
+#content div.box-gray {
+	background: #fffcfa url(../img/box-bg.png) repeat-x;
+	overflow: hidden;
+	padding-bottom: 1em;
+}
+
+#content div.box-gray div.section
+{
+
+    padding: 20px;
+}
+
+#content div.box-gray h4 {
+	color: #000;
+	font-size: 1.1em;
+	margin: 1em 0 0.2em 0;
+}
+
+#content div.box-gray h4:first-child {
+	margin-top: 0;
+}
+
+#content div.box-gray p {
+	margin: 0 0 0.3em 0;
+	line-height: 1.5em;
+	clear: both;
+}
+
+#content div.box-gray ul.horizontal-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+#content div.box-gray ul.horizontal-list li {
+    float: left;
+    padding-right: 10px;
+}
+
+#content div.copy ul,
+#content div.box-gray ul {
+	list-style-type: disc;
+	margin: 1em 0 1em 1.5em;
+}
+
+#content div.copy ul li,
+#content div.box-gray ul li {
+	margin-bottom: 0.3em;
+}
+
+#content div.box-gray ul.section-list
+{
+    list-style-type: none;
+}
+
+#content div.box-gray ul.section-list li
+{
+    /*background: url(../img/divider.gif) repeat-x;*/
+}
+
+/* Red sidebar boxes */
+#content div.sidebar-statement
+{
+    margin-top: 55px;
+}
+
+#content.story div.sidebar-statement
+{
+    margin-top: 86px;
+}
+
+#content.event div.sidebar-statement
+{
+    margin-top: 25px;
+}
+
+#content.donate div.sidebar-statement
+{
+    margin-top: 25px;
+}
+
+#content div.sidebar-statement div.geo-trust
+{
+    margin-bottom: 20px;
+}
+
+#content div.colored-box {
+	background-repeat: no-repeat;
+	/*width: 216px;*/
+	color: #fff;
+	/*margin-bottom: 1em;*/
+	padding: 16px 16px 1em 16px;
+}
+
+#content div.colored-box div.section {
+    
+    padding: 0;
+    margin: 0;
+}
+
+#content div.colored-box a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#content div.colored-box a:hover {
+	color: #ffcc00;
+}
+
+#content div.colored-box h4 {
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #fff;
+	padding: 0 0 0.5em 0;
+	margin: 0 0 0.5em 0;
+	background: url(../img/box/red-divider.gif) repeat-x bottom left;
+}
+
+#content div.colored-box p {
+    line-height: 1.5em;
+	padding: 0 0 1em 0;
+	color: #fff;
+	background: url(../img/box/red-divider.gif) repeat-x bottom left;
+	margin: 1em 0;
+}
+
+#content div.box-red {
+	background-color: #8b0202;
+}
+
+/* Quick links */
+
+#content div.quick-links {
+	clear: both;
+	background: url(../img/divider.gif) repeat-x;
+	margin: 0 0 30px 0;
+}
+
+#content div.quick-links h3 {
+	background: none;
+	font-size: 1.8em;
+	padding: 15px 0;
+	margin: 0;
+}
+
+#content div.quick-links ul {
+	overflow: hidden;
+}
+
+#content div.quick-links ul li {
+	float: left;
+	/*padding-right: 18px;*/
+	margin-right: 7px;
+}
+
+#content div.quick-links ul li.last {
+	margin: 0;
+	padding: 0;
+	/*background: none;*/
+}
+
+#content div.quick-links ul li a {
+	display: block;
+	padding: 124px 5px 0 5px;
+	text-align: center;
+	background-repeat: no-repeat;
+	color: #000;
+	text-decoration: none;
+	width: 156px;
+}
+
+#content div.quick-links ul li a.donate {
+    background: url(../img/quick-links/donate-bg.jpg) no-repeat;
+}
+
+#content div.quick-links ul li a.involved {
+    background: url(../img/quick-links/involved-bg.jpg) no-repeat;
+}
+
+#content div.quick-links ul li a.volunteer {
+    background: url(../img/quick-links/volunteer-bg.jpg) no-repeat;
+}
+
+#content div.quick-links ul li a.newsletter {
+    background: url(../img/quick-links/newsletter-bg.jpg) no-repeat;
+}
+
+#content div.quick-links ul li a.current,
+#content div.quick-links ul li a:hover {
+	background-position: -166px 0px;
+	color: #8a0000;
+	font-weight: bold;
+}
+
+/* End Quick Links */
+
+/* Donate Table */
+
+#content table.donate
+{
+    width: 100%;
+    padding-top: 20px;
+    font-size: 0.9em;
+}
+
+#content table.donate td
+{
+    width: 40%;
+    padding: 5px 0;
+    vertical-align: top;
+}
+
+#content table.donate td.desc
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+#content table.donate input.text
+{
+    width: 220px;
+}
+
+#content table.donate input.medium
+{
+    width: 100px;
+}
+
+#content table.donate input.short
+{
+    width: 50px;
+}
+
+#content table.donate input.phone3
+{
+    width: 85px;
+}
+
+/* End Donate Table */
+
+/* Footer */
+
+#footer {
+	color: #000;
+	font-size: 0.9em;
+	padding: 22px 0;
+	overflow: hidden;
+	margin: 1em auto 0;
+	width: 930px;
+	z-index: 2;
+	background:url("../img/divider.gif") repeat-x scroll left top white;
+}
+
+#footer div.left {
+	width: 60%;
+	float: left;
+	margin-left: 10px;
+}
+
+#footer div.right {
+	width: 30%;
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#footer a {
+	color: #000;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #B50202;
+}
+
+#footer p {
+	margin: 0;
+}
+
+#footer div.right a.bbb {
+	margin-left: 10px;
+}
+
+#footer div.left p.copyright {
+	font-size: 1em;
+	margin-top: 0.5em;
+}
+
+#footer div.left p.copyright-desc {
+	font-size: 0.9em;
+	margin-top: 0.5em;
+	width: 520px;
+}
+
+#footer ul.links {
+	float: right;
+}
+
+#footer ul.links li {
+	float: left;
+	padding: 0.5em 1em;
+	margin-top: 34px;
+}
+
+#footer ul.links li.report {
+	border: 0;
+}
+
+#footer ul.links li.bbb {
+	padding: 0 0 0 0.5em;
+	margin: 0;
+}
+
+#footer ul.links li.bbb a {
+	display: block;
+	width: 37px;
+	height: 55px;
+	text-indent: -5000px;
+	overflow: hidden;
+	background: url(../img/bbb.gif) no-repeat;
+}
+
+/* Utility */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+#content-widget {
+	float:right;
+	margin-left:10px;
+	margin-bottom:10px;
+}
